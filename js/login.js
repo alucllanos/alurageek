@@ -47,7 +47,7 @@
         const $inputUserAdmin = document.querySelector("[data-inputUserAdmin]").value;
         const $inputPassAdmin = document.querySelector("[data-inputPassAdmin]").value;
 
-        if ($inputUserAdmin === "@dllanosr" && $inputPassAdmin === "admin123" || $inputUserAdmin === "@dllanosr17" && $inputPassAdmin === "admin1234") {
+        if ($inputUserAdmin === "@dllanosr" && $inputPassAdmin === "admin123") {
             (async () => {
                 await Swal.fire({
                     title: "<span class='alertTitle'>Bienvenido</span>",
