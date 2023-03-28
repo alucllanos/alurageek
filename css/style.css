@@ -441,6 +441,7 @@ main {
     color: var(--color-blue);
     word-wrap: break-word;
     word-break: break-all;
+    padin: 1rem;
 }
 /*Configuración footer*/
 .footer {
