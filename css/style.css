@@ -435,10 +435,12 @@ main {
     color: var(--color--text);
 }
 .messaje__contac{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     color: var(--color-blue);
+    word-wrap: break-word;
+    word-break: break-all;
 }
 /*Configuración footer*/
 .footer {
@@ -500,8 +502,10 @@ main {
     }
     .logo__name__responsive {
     display: block;
-    }        
-}
+    }
+    .messaje__contact{
+        font-size: 2rem;
+    }
 @media screen and (max-width:475px) {
     .container__header {
         width: 95vw;
