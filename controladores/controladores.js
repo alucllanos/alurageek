@@ -23,7 +23,7 @@ const printProductos = (nombre, precio, imgUrl, id, categoria) => {
     <img class="producto__target__img" src="${imgUrl}" alt="">
     <p class="producto__target__name">${nombre}</p>
     <p class="producto__target__precio">S/ ${precio}</p>
-    <a class="producto__target__ver" href="../html/producto.html?id=${id}">Ver Producto</a>
+    <a class="producto__target__ver" href="html/producto.html?id=${id}">Ver Producto</a>
     <p class="producto__target__category">${categoria}<p>
   `;
   anhadirLinea.innerHTML = contenido;
