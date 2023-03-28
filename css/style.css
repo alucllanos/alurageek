@@ -352,7 +352,7 @@ main {
 /*Contacto*/
 .container__contacto {
     display: none;
-    background: url(imagenes/banner_contact.jpg);
+    background: url(../imagenes/banner_contact.jpg);
     height: 70vh;
 }
 .container__contacto.show {
