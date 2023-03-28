@@ -23,7 +23,8 @@ const mostrarProductos = (nombre, precio, imgUrl, id, categoria) => {
     $eliminarProducto.addEventListener('click', () => {
         const id = $eliminarProducto.id;
         datosProductos.deletProductos(id).then(respuesta => {
-            console.log(respuesta)
+           (respuesta);
+           location.reload();
         }).catch(err => Swal.fire("Error al eliminar producto"))
     });
     return anhadirLinea;
