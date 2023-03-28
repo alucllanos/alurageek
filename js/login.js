@@ -24,7 +24,7 @@
             showConfirmButton: true,
             confirmButtonColor: "#295afa",
             confirmButtonAriaLabe: "Confirmar",
-            imageUrl: "/imagenes/endesarrollo.svg",
+            imageUrl: "../imagenes/endesarrollo.svg",
             imageWidth: "250px",
             imageAlt: "En Desarrollo",
         })
