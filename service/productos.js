@@ -1,7 +1,7 @@
-const listaProductos = () => fetch("http://localhost:3000/productos").then(respuesta => respuesta.json()); 
+const listaProductos = () => fetch("https://my-json-server.typicode.com/alucllanos/alurageek/productos").then(respuesta => respuesta.json()); 
 
 const addProductoSave = (nombre, categoria, precio, descripcion, imgUrl) => {
-    return fetch("http://localhost:3000/productos", {
+    return fetch("https://my-json-server.typicode.com/alucllanos/alurageek/productos", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
@@ -11,19 +11,19 @@ const addProductoSave = (nombre, categoria, precio, descripcion, imgUrl) => {
 }
 
 const deletProductos = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`,
+    return fetch(`https://my-json-server.typicode.com/alucllanos/alurageek/productos/${id}`,
         {
             method: "DELETE"
         })
 }
 
 const detalleProductos = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json()
+    return fetch(`https://my-json-server.typicode.com/alucllanos/alurageek/productos/${id}`).then(respuesta => respuesta.json()
     );
 };
 
 const actualizarProducto = (nombre, categoria, precio, descripcion, imgUrl, id) => {
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://my-json-server.typicode.com/alucllanos/alurageek/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
